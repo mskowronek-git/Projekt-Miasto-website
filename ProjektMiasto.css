@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    background: #FDFDFD;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+header {
+    background: #9292FC;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+
+.icons{
+    float: right;
+    margin: 0;
+    padding-left: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.nagłówek {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    color: white;
+  }
+
+.icons li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 13px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+  padding-right: 40px;
+  padding-top: 30px;
+  list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav:hover li a{
+    text-shadow: 0 0 5px #111f42
+}
+
+nav li a:hover{
+    color: rgb(54, 50, 50);
+    text-shadow: 0 0 1px black;
+    padding-left: 10px;
+}
+
+.logo {
+    float: left;
+    padding: 0 40px;
+}
+
+.title {
+    padding: 10px 0;
+    font-weight: 900;
+}
+
+.panel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contactIcons{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form{
+    width: 50%;
+    background:rgb(228, 228, 241);
+    text-align: center;
+    position: relative;
+    margin-left: 370px;
+    margin-bottom: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #111f42;
+    padding: 30px 40px;
+}
+
+.contact-form h1{
+    margin-top: 0;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333333
+}
+
+.txtb input{
+    width: 100%;
+    border:none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.txtb textarea{
+    width: 100%;
+    border:none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(41, 41, 114);
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.donationHeader{
+    text-align: center;
+}
+
+.donationForm{
+    width: 50%;
+    background:rgb(228, 228, 241);
+    text-align: center;
+    position: relative;
+    margin-left: 370px;
+    margin-bottom: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #111f42;
+    padding: 30px 40px;
+}
+
+.donationBtn button{
+    background-color:#9292FC; 
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sendDonation button{
+    background-color: red;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    width: 36%;
+    margin-top: 10px;
+}
+
+.sendChoose{
+    display: block;
+}
+
+.indexTitle{
+    text-align: center;
+}
+
+.searchCity{
+    margin-left: 100px;
+}
+
+.biggestCity{
+    margin-left: 100px;
+}
+
+.biggestCity td{
+    display: inline-block;
+    margin-left: 57px;
+    padding-top: 13px;
+}
+
+.alphabetCity{
+    margin-left: 100px;
+}

@@ -1,0 +1,19 @@
+.main {
+
+  border: 10px solid var(--portage);
+  text-align: center;
+  margin: auto;
+ 
+  
+}
+.main {
+  border-radius: 125px;
+  height: 390px;
+  width: 90%;
+}
+:root {
+  --portage: rgba(146, 146, 252, 1);
+}
+p   {
+    margin:10px 10px 10px 10px ;
+}
